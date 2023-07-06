@@ -60,3 +60,70 @@
     color: whitesmoke !important;
     background-color: #338515;
 }
+
+
+
+.button-filled-green {
+    text-transform: uppercase;
+    font-weight: bold;
+    border: 2px solid whitesmoke !important;
+    
+    border-radius: 25px;
+    padding: 5px 35px !important;
+
+    color: whitesmoke !important;
+    background-color: #338515;
+}
+
+.button-filled-green:hover {
+    border-color: #338515 !important;
+    background-color: whitesmoke;
+    color: #338515 !important;
+}
+
+
+.carousel-image
+{
+    height: 400px;
+}
+
+@media screen and (max-width: 657px)
+{
+    .carousel-image
+    {
+        height: 250px;
+    }
+}
+
+.main-heading
+{
+    color: #9e2325;
+    font-weight: bolder;
+    text-transform:capitalize;
+    letter-spacing: 2px;
+}
+
+h1,h2, h3
+{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.cat-card
+{
+    width: 300px;
+}
+
+.card-heading
+{
+    color: #9e2325;
+}
+
+.cat-card img
+{
+    border: 5px solid #9e2325;
+}
+
+.cat-card img:hover
+{
+    border-color: #338515;
+}
